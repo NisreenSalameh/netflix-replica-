@@ -6,6 +6,11 @@ function Slide(){
   const left = "<"
   const right = ">"
   const sliderRef = useRef(null)
+
+
+  // This will receive from Api file, an object of images, titles and movie titles
+  
+
   const image_location = ['/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg'];
   
   useEffect(() => {
@@ -48,6 +53,8 @@ function Slide(){
       slider.style.transform = "translateX(0%)"
     }
   }
+
+  
 
 return <>
 
