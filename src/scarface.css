@@ -1,0 +1,277 @@
+.scarface-hero-section {
+    background-image:linear-gradient(to right, #181818f0, rgba(32, 32, 32, 0.132)), url(../public/images/scarface/scarfacebg.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    padding: 62px 62px 25px 62px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.scarface-hero-info-container{
+    height: 100vh;
+    width: 500px;
+    padding: 16px 32px 64px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+}
+
+.scarface-img-logo{
+    height: 191px;
+    width:450px;
+    display: flex;
+}
+
+.scarface-title-info{
+    height:171px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.8rem;
+}
+
+.scarface-title{
+    width: 500px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.scarface-metadata-wrapper{
+    width: 500px;
+    font-size: 1rem;
+    display: flex;
+    color:#a3a3a3;
+    gap: 0.5rem;
+}
+
+.scarface-metadata-wrapper-txt-age{
+    border: 0.5px solid #a3a3a3;
+}
+
+.scarface-title-info-synopsis{
+    width:500px;
+    display: flex;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+.scarface-starring{
+    width: 360px;
+    font-size: 1rem;
+}
+.scarface-starring-span{
+    color: #a3a3a3;
+}
+.scarface-starring-actors{
+    color:#ffffff;
+}
+
+.scarface-cta{
+    height: 43px;
+    width:95%;
+    padding: 8px 8px 8px 16px;
+    position: relative;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(25, 25, 25, 0.954);
+}
+
+.scarface-cta-image{
+    height: 38px;
+    width: 21px;
+}
+
+.scarface-watch-cta{
+    height: 43px;
+    width:1016px;
+    padding: 0 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scarface-cta-text{
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.scarface-cta-btn{
+    background-color: #f40612;
+    height: 2.063rem;
+    width: 7rem;
+    padding: 9px 20px 9px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.813;
+    color:#ffffff;
+    border:none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.scarface-hook-section{
+    height: 82px;
+    padding: 35px 62px 35px 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scarface-hook-hr{
+    color:#a3a3a3;
+    height:0.625rem;
+    text-align: center;
+    width:97%;
+}
+
+.scarface-hoot-p-text{
+    color:#a3a3a3;
+    font-size: 1rem;
+    width:31.25rem;
+    text-align: center;
+}
+
+
+.scarface-more-details-section{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    padding: 5px 72px 40px 72px;
+    text-align: left;
+}
+
+.scarface-more-details-header{
+    height: 66.5px;
+    width:1093px;
+}
+
+.scarface-more-details-container{
+    display: flex;
+    flex-direction: column;
+    gap:-50px;
+}
+
+.scarface-md-wd-upper,
+.scarface-md-wd-lower,
+.scarface-more-details-cast-info{
+    display: flex;
+    text-align: left;
+    width:1105px;
+    height:100px;
+    gap:30px;
+}
+
+.scarface-md-wd-upper-left,
+.scarface-md-wd-upper-middle,
+.scarface-md-wd-upper-right,
+.scarface-md-wd-lower-left,
+.scarface-md-wd-lower-middle,
+.scarface-more-details-cast-info-left,
+.scarface-more-details-cast-info-middle,
+.scarface-more-details-cast-info-right{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+}
+
+.scarface-more-details-p{
+    font-size: 1.875rem;
+    color:#ffffff;
+}
+
+.scarface-md-span{
+    color:#ffffff;
+    font-size: 16px;
+    height: 22px;
+}
+
+.scarface-md-p{
+    font-size: 16px;
+    color:#a3a3a3;
+    height: 5px;
+}
+
+.scarface-more-details-cast-info{
+    display: flex;
+}
+
+
+.scarface-more-movies-section{
+    height: 920px;
+    padding: 25px 62px 35px 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.scarface-more-movies-library{
+    height:866px;
+    width:1105px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.scarface-more-movies-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scarface-more-movies-img{
+    width:360px;
+    height:200px;
+    cursor: pointer;
+}
+
+
+.scarface-comingsoon-section{
+    height:340px;
+    padding: 25px 62px 200px 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.scarface-comingsoon-container{
+    height:246px;
+    display: flex;
+    gap:20px;
+}
+
+.avatar-cell{
+    width:350px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.scarface-promo-section{
+    height: 54px;
+    padding: 25px 65px 25px 65px;
+    display: flex;
+}
+
+.scarface-promo-container{
+    height:66px;
+    text-align: left;
+}
+
+.scarface-promo-text{
+    color:#a3a3a3;
+    font-size: 14px;
+    width:332px;
+}
