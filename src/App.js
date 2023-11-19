@@ -3,36 +3,39 @@ import './App.css'
 import requests from './API'
 import Navbar from './Components/Navbar/Navbar'
 import Slide from './Components/movies slide/slide'
+import Movies from './Components/Movies/Movies'
 
 function App() {
-  const [movieData, setMovieData] = useState(null)
+  // const [movieData, setMovieData] = useState(null)
 
-  useEffect(() => {
+  // useEffect(() => {
     
     fetch('https://api.themoviedb.org/3/discover/movie?api_key=4edfec507e5263481f8e939ed0c4e2a2&with_genres=27')
-      .then((response) => {
+    // https://api.themoviedb.org/3/discover/movie?api_key=4edfec507e5263481f8e939ed0c4e2a2&with_genres=28  
+    .then((response) => {
         return response.json()
       })
       .then((data) => {
-        
-        const firstMovie = data.results[0]
-        setMovieData(firstMovie)
+        // console.log(data.results)
+        // const firstMovie = data.results[0]
+        // setMovieData(firstMovie)
       })
       .catch((error) => console.log(error))
-  }, []) // Empty dependency array to run the effect only once
-  console.log(movieData)
+  // }, []) // Empty dependency array to run the effect only once
+  // console.log(movieData)
   return (
     <>
       <Navbar />
-      <Slide source=""/>
+      {/* <Slide imgsrc={movieData[0]} source=""/> */}
       {/* truthy syntax to ensure movieData is not null, undefined, false, 0, or an empty string. otherwise it won't render*/}
-      {movieData && (
+      {/* {movieData && (
         <>
           <h1>{movieData.title}</h1>
           <img src={`https://image.tmdb.org/t/p/w500/${movieData.backdrop_path}`} alt={movieData.title} />
           <p>{movieData.overview}</p>
         </>
-      )}
+      )} */}
+      <Movies></Movies>
     </>
   )
 }
