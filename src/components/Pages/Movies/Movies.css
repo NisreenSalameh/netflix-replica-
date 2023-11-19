@@ -1,0 +1,47 @@
+.movies-container{
+    margin: 55px 0px 20px 0px;
+}
+
+@media (max-width: 700px) {
+    .movies-container{
+        margin-bottom: 0px;
+    }
+}
+
+.movies-text{
+    padding: 35px 33px 0px 33px;
+    max-width: 593px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.2;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+}
+
+@media (max-width:1025px) {
+    h1{
+        font-size: 44px;
+    }
+
+    .movies-description p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:740px) {
+    h1{
+        margin-bottom: 0.55em;
+    }
+    
+}
+
+.movies-description p{
+    font-size: 19px;
+    margin-top: 0.1vw;
+    transition-delay: 0s;
+    transition-duration: .75s;
+    width: 100%;
+}
