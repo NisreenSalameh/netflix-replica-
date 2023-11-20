@@ -15,16 +15,20 @@ function App() {
       })
       .then((data) => {
         
-        const firstMovie = data.results[0]
+        const firstMovie = data
         setMovieData(firstMovie)
       })
       .catch((error) => console.log(error))
-  }, []) // Empty dependency array to run the effect only once
-  console.log(movieData)
+
+    },[]) // Empty dependency array to run the effect only once
+    console.log(movieData)
+
+
+
   return (
     <>
       <Navbar />
-      <Slide source=""/>
+      <Slide/>
       {/* truthy syntax to ensure movieData is not null, undefined, false, 0, or an empty string. otherwise it won't render*/}
       {movieData && (
         <>
