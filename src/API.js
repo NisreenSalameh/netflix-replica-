@@ -6,9 +6,9 @@ const urlWithApiKey = baseUrl + ApiKey
 const requests={
     ByPopularity:`${urlWithApiKey}&by=popularity.desc`,
     NetflixOriginalsWithNetwork: `${urlWithApiKey}&with_genres=213`,
-    ActionMoviesUrl: `${urlWithApiKey}&with_genres=28`,
-    ComedyMoviesUrl: `${urlWithApiKey}&with_genres=35`,
-    HorrorMoviesUrl: `${urlWithApiKey}&with_genres=27`,
+    ActionMoviesUrl: `${urlWithApiKey}&with_genres=28`, // used
+    ComedyMoviesUrl: `${urlWithApiKey}&with_genres=35`, // used 
+    HorrorMoviesUrl: `${urlWithApiKey}&with_genres=27`, // used
     RomanceMovies: `${urlWithApiKey}&with_genres=10749`,
     DocumentariesMovies: `${urlWithApiKey}&with_genres=99`,
     FamilyMovies: `${urlWithApiKey}&with_genres=10751`,
@@ -22,7 +22,4 @@ const requests={
     CrimeDramaMovies: `${urlWithApiKey}&with_genres=10749`,
 }
 
-console.log(requests.ActionMoviesUrl)
-
 export default requests;
-

@@ -1,33 +1,34 @@
 import { useState, useEffect,  } from "react";
 import { fetchActionMovies, fetchComedyMovies, fetchHorrorMovies } from "../../ApiCalls";
+import Slide from '../movies slide/slide'
 
 export default function Movies(){
     const [movies, setMovies] = useState({})
+
     useEffect(() =>{
+
+        // call the imported fetchMovies
+        // the return value is an object key(movie genre) : value(fetched object)
         const fechdata = async() =>{
             let mapMovies = new Map();
+
             try{
                 const actionMoviesList = await fetchActionMovies();
-                // console.log(actionMoviesList);
-                // mapMovies.set("action ", actionMoviesList)
-                // console.log(mapMovies)
-                let arr = actionMoviesList;
-                mapMovies.set('action',arr )
-                // console.log(mapMovies)
+                mapMovies.set('action',actionMoviesList )
             }
             catch(error){
                 console.log(error)
             }
 
+
             try{
                 const horrorMoviesList = await fetchHorrorMovies();
-                // console.log(horrorMoviesList);
                 mapMovies.set('horror', horrorMoviesList)
-               
             }
             catch(error){
                 console.log(error)
             }
+
 
             try{
                 const comedyMoviesList = await fetchComedyMovies();
@@ -39,17 +40,13 @@ export default function Movies(){
             setMovies(mapMovies);
         }
         
-        fechdata();
+        // change movies(useState) to an object mapMovies with the movie key:value
+        fechdata()
     },[])
-
-    if(movies){
-        const listofmovies = movies.get('action')
-        console.log(listofmovies);
-    }
     
     return(
         <>
-
+            <Slide />
         </>
     )
 

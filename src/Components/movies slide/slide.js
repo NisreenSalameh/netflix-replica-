@@ -9,7 +9,6 @@ function Slide(){
 
 
   // This will receive from Api file, an object of images, titles and movie titles
-  
 
   const image_location = ['/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg', '/slider-images/purple.jpg'];
   
