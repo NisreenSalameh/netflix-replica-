@@ -1,0 +1,34 @@
+.final-section{
+    background-color: black; 
+}
+.footer{
+    max-width: 70%;
+    padding:2rem;
+    Padding-left:8rem;
+    overflow: auto;
+    background-color: black;
+}
+
+.footer ,
+.footer a{
+    color: #FFFFFFB3;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    margin-left:0.2rem;
+    font-size: 1rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    list-style: none;
+}

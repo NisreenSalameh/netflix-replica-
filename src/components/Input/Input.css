@@ -1,0 +1,43 @@
+.input {
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+  
+  .input input {
+    
+    width: 400px;
+    height: 3rem;
+    margin-left: 27rem;
+    font-size:1.2rem;
+    color:rgb(255,255,255);
+    background-color: rgba(0,0,0,0.2);
+    border:2px solid whitesmoke;
+    padding-left:20px;
+    border-radius: 4px;
+  }
+  .input ::placeholder{
+    color:white;
+  }
+  .input button {
+    display: inline-block;
+    cursor: pointer;
+  background: #e50914;
+  height:3rem;
+  color: rgb(255,255,255);
+  font-weight: 600;
+  padding: 0.4rem 1.3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-left:14rem;
+  border-radius: 2px;
+  
+  }
+   p{
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+}
