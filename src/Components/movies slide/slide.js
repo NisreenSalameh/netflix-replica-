@@ -38,9 +38,9 @@ function Slide({arrOfMovies, genre}){
   function slide_left (){
     const  slider = sliderRef.current
     if (slider){
-      if (translateValue !== -80){
-        slider.style.transform = `translateX(${translateValue - 20}%)`
-        setTranslateValue(translateValue - 20)
+      if (translateValue !== 0){
+        slider.style.transform = `translateX(${translateValue + 20}%)`
+        setTranslateValue(translateValue + 20)
         console.log(translateValue)
       }
     }
@@ -49,9 +49,9 @@ function Slide({arrOfMovies, genre}){
   function slide_right (){ 
     const  slider = sliderRef.current
     if (slider) {
-      if (translateValue !== 0){
-        slider.style.transform = `translateX(${translateValue + 20}%)`
-        setTranslateValue(translateValue + 20) 
+      if (translateValue !== -80){
+        slider.style.transform = `translateX(${translateValue - 20}%)`
+        setTranslateValue(translateValue - 20) 
         console.log(translateValue)
     }
   }
