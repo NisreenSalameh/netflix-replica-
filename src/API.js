@@ -20,6 +20,13 @@ const requests={
     KidsAndFamilyMovies: `${urlWithApiKey}&with_genres=10749`,
     AdventureMovies: `${urlWithApiKey}&with_genres=10749`,
     CrimeDramaMovies: `${urlWithApiKey}&with_genres=10749`,
+    ArabicMovies: `${urlWithApiKey}&with_genres=10749`,
+    HollywoodMovies: `${urlWithApiKey}&with_genres=10749`,
+    NewReleasesMovies: `${urlWithApiKey}&with_genres=10749`,
+    DramaMovies: `${urlWithApiKey}&with_genres=10749`,
+    KidsAndFamilyMovies: `${urlWithApiKey}&with_genres=10749`,
+    AdventureMovies: `${urlWithApiKey}&with_genres=10749`,
+    CrimeDramaMovies: `${urlWithApiKey}&with_genres=10749`,
 }
 
 export default requests;
