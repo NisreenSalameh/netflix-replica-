@@ -43,7 +43,7 @@ export default function Movies(){
         // change movies(useState) to an object mapMovies with the movie key:value
         fechdata()
     },[])
-    
+    console.group(movies)
     return(
         <>
             <Slide />
