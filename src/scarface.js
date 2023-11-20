@@ -144,46 +144,46 @@ const Scarface = () => {
         <div className='scarface-comingsoon-container'>
             <div className='scarface-comingsoon-left-column'>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>Avatar The Last Airbender</span>
+                    <span className='scarface-md-span avatarcell-s'>Avatar The Last Airbender</span>
                     <p className='scarface-md-p'>Water. Earth. Fire. Air. Long ago, the four nations lived together in harmony — 
                     then everything changed. A live-action adaptation of Aang's story.</p>
                 </div>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>Code 8 Part II</span>
+                    <span className='scarface-md-span avatarcell-s'>Code 8 Part II</span>
                     <p className='scarface-md-p'>In a world where superpowered people are heavily policed by robots, an ex-con teams 
                     up with a drug lord he despises to protect a teen from a corrupt cop.</p>
                 </div>
                 <div className='avatar-cell'>
-                <span className='scarface-md-span'>Within Sand</span>
+                <span className='scarface-md-span avatarcell-s'>Within Sand</span>
                     <p className='scarface-md-p'>Ambushed by robbers, a stranded young merchant traverses the scorching 
                     desert to get home to his pregnant wife — accompanied by an unexpected friend.</p>   
                 </div>
             </div>
             <div className='scarface-comingsoon-middle-column'>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>Heeramandi</span>
+                    <span className='scarface-md-span avatarcell-s'>Heeramandi</span>
                     <p className='scarface-md-p'>Sanjay Leela Bhansali brings his majestic signature flair to stories of love and 
                     betrayal in the lives of courtesans in pre-independence India.</p>
                 </div>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>Squid Game: The Challenge</span>
+                    <span className='scarface-md-span avatarcell-s'>Squid Game: The Challenge</span>
                     <p className='scarface-md-p'>Immersed in the world of "Squid Game," 456 real players put their skills
                      — and character — to the ultimate test for a life-changing $4.56 million prize.</p>
                 </div>
                 <div className='avatar-cell'>
-                <span className='scarface-md-span'>Yu Yu Hakusho</span>
+                <span className='scarface-md-span avatarcell-s'>Yu Yu Hakusho</span>
                     <p className='scarface-md-p'>After a selfless act costs him his life, teen delinquent Yusuke Urameshi is chosen 
                     as a Spirit Detective to investigate cases involving rogue yokai.</p>   
                 </div>
             </div>
             <div className='scarface-comingsoon-right-column'>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>3 Body Problem</span>
+                    <span className='scarface-md-span avatarcell-s'>3 Body Problem</span>
                     <p className='scarface-md-p'>A fateful decision in 1960s China echoes across space and time to a group of scientists 
                     in the present, forcing them to face humanity's greatest threat.</p>
                 </div>
                 <div className='avatar-cell'>
-                    <span className='scarface-md-span'>Chicken Run: Dawn of the Nugget</span>
+                    <span className='scarface-md-span avatarcell-s'>Chicken Run: Dawn of the Nugget</span>
                     <p className='scarface-md-p'>A band of fearless chickens flock together to save poultry-kind from an 
                     unsettling new threat: a nearby farm that's cooking up something suspicious.</p>
                 </div>

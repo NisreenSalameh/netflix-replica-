@@ -115,6 +115,10 @@
     text-transform: uppercase;
     border-radius: 2px;
 }
+.scarface-cta-btn:hover{
+    cursor: pointer;
+    background-color: #ff000d;
+}
 
 /***************Scarface - hook section**************/
 .scarface-hook-section{
@@ -259,6 +263,12 @@
     height: 7.5rem;
     display: flex;
     flex-direction: column;
+}
+.avatar-cell:hover{
+    cursor: pointer;
+}
+.avatarcell-s:hover{
+    text-decoration: underline;
 }
 
 
