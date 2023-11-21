@@ -1,23 +1,12 @@
 import './Movies.css'
-import MoviesList from './MoviesList'
-import requests from '../../../requests'
+import MoviesList from '../../components/util/MoviesList/MoviesList'
+import moviesGenresIdMap from '../../core/helpers/request_helper/moviesGenresId';
 
 export default function Movies(){
 
-    //
-    // const [movies, setMovies] = useState([]) 
-    // const getMovies = () =>{
-        
-    //     fetch(requests.fetchActionMovies)
-    //     .then(res => res.json())
-    //     .then(json => setMovies(json.results))
-    // }
-
-    // useEffect(() =>{ 
-    //     getMovies()
-    // },[])
-
-
+    const slideComponents = Object.entries(moviesGenresIdMap).map(([genre, genreNumber]) => (
+        <MoviesList key={genre} genre={genre} genreNumber={genreNumber} />
+      ));
 
     return(
         <div className='movies-container'>
@@ -32,7 +21,8 @@ export default function Movies(){
                     </p>
                 </div>
             </div>
-            <MoviesList />
+            <MoviesList genre = "Popular on Netflix" />
+            {slideComponents}
         </div>
     )
 }

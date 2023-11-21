@@ -1,6 +1,6 @@
-import './App.css';
-import Movies from './components/Pages/Movies/Movies';
-import Navbar from './components/Resusable/navbar/Navbar';
+import './styles/App.css';
+import Movies from './pages/Movies/Movies';
+import Navbar from './components/common/Navbar/Navbar';
 
 
 function App() {
