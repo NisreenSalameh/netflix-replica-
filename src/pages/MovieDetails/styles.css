@@ -1,15 +1,9 @@
-
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .new-movie-wrapper{
-  height: 100vh;
+  margin-top: 55px;
+  height: 95vh;
   width: 100%;
   background-size: cover;
-  object-fit: contain;
+
 }
 
 .shadow{
@@ -18,30 +12,41 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: flex-start;
   padding-left: 55px;
-  background: linear-gradient(90deg, black, rgba(0, 0, 0, 0.699) 30%, rgba(0, 0, 0, 0.363) 42.5%, rgba(0, 0, 0, 0) 45%, transparent 40%) ;
+  padding-bottom: 100px;
+ background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
   gap: 20px;
 }
 
-.new-move-text-container{
+.new-movie-text-container{
   width: 100%;
-  max-width: 550px;
+  max-width: 540px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
+  gap: 5px;
 }
 
-.new-move-text-container div{
+.new-movie-text-container > p:nth-child(1){
+  font-size: 45px;
+}
+
+.new-movie-text-container div{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px;
 }
 
-.grey-clr{
+.details{
+  font-size: 17px;
   font-weight: 400;
   color: #a3a3a3;
+}
+
+.new-movie-text-container p:last-of-type{
+  line-height: 21px;
+  font-size: 18px;
 }

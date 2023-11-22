@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route element={<Movies />} path="/" />
           <Route element={<MovieDetails />} path="/movie/:id" />
-          {/* <Route path="/home" element={<Home />} />  */}
-          {/* <Route path="/netflix-show" element={<NetFlixShow/>} /> */}
+          <Route path="/home" element={<Home />} /> 
+          <Route path="/netflix-show" element={<NetFlixShow/>} />
         </Routes>
       </BrowserRouter>
       </div>
