@@ -41,3 +41,44 @@
     grid-row: 1/2;
     z-index: 1;
 }
+
+@media (max-width: 960px) {
+    .card-3 {
+      grid-template-columns: 100%; 
+      padding: 20px;
+    }
+  
+    .desc-3 {
+      padding-left: 0;
+      margin-top: 20px; 
+      padding-right: 0;
+    }
+  
+    .card-3 h1 {
+      font-size: 2rem;
+    }
+  
+    .card-3 h3 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    
+  
+    .card-3 h1 {
+      font-size: 1.8rem;
+    }
+  
+    .card-3 h3 {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+  
+    .card-3 img,
+    .card-3 video {
+      display: none; 
+    }
+  }

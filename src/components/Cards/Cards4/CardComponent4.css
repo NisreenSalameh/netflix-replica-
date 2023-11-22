@@ -22,3 +22,38 @@
 .desc-4{
     padding-left: 100px;
 }
+
+@media (max-width: 960px) {
+  .card-4 {
+    grid-template-columns: 100%; 
+    padding: 20px;
+  }
+
+  .desc-4 {
+    padding-left: 0;
+    margin-top: 20px; /* Adjust spacing for smaller screens */
+  }
+
+  .card-4 h1 {
+    font-size: 2rem;
+  }
+
+  .card-4 h3 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+
+  .card-4 h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-4 h3 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}

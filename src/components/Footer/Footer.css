@@ -32,3 +32,17 @@
     line-height: 2.4;
     list-style: none;
 }
+
+@media (max-width: 960px) {
+    .footer {
+      padding: 20px 20px; 
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    .footer {
+      padding: 20px 5px; 
+      
+    }
+  }

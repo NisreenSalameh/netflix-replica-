@@ -26,4 +26,36 @@
     font-size: 1.6rem;
     line-height: 2rem;
   }
+  @media (max-width: 960px) {
+    .card-2 {
+      grid-template-columns: 100%; 
+      padding: 20px;
+    }
   
+    .desc-2 {
+      padding-left: 0;
+      margin-top: 20px; 
+    }
+  
+    .card-2 h1 {
+      font-size: 2rem;
+    }
+  
+    .card-2 h3 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    
+    .card-2 h1 {
+      font-size: 1.8rem;
+    }
+  
+    .card-2 h3 {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+  }

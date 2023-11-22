@@ -10,11 +10,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} /> 
-        <Route path="/netflix-show" element={<NetFlixShow />} /> 
+        <Route path="/netflix-show" element={<NetFlixShow/>} /> 
         {/* kenet hatit browserRRounter a parent class bas aloule ma fik w bbedak thot Route be2alb parent esma Routes */}
       </Routes>
     </Router>
   );
 }
-
 export default App;
