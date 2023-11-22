@@ -1,7 +1,7 @@
 import './MoviesList.css'
 import { useState, useEffect, useRef } from 'react'; 
 import { fecthMoviesByPoularity, fecthMoviesGenres } from '../../../core/helpers/request_helper/requests';
-import {Link, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
 export default function MoviesList({genre, genreNumber}){
     const [movies, setMovies] =useState([]);
@@ -11,6 +11,8 @@ export default function MoviesList({genre, genreNumber}){
     const sliderRef = useRef(null);
     const navigate = useNavigate();
     let img_url= "https://image.tmdb.org/t/p/w500/"
+
+    console.log("t4vwvev",genre)
     
 
     useEffect(() => {
@@ -55,11 +57,9 @@ export default function MoviesList({genre, genreNumber}){
             }
         }
     }
-//    if(movies){
-//     console.log(movies[0].id)
-//    } 
 
     return(
+
     <div className='slider-container-spans'>   
         <div className="slider-container">
             <p>{genre}</p>
@@ -69,7 +69,7 @@ export default function MoviesList({genre, genreNumber}){
                     <div key = {movie.id} className = 'slider-inner-content'>                      
                         <div className = 'slider-img-container'>
                             <img  
-                                onClick={()=> {navigate(`/movie/${movie.id}`, {replace:true, state:{movie}})}}
+                                onClick={()=> {navigate(`/movie/${movie.id}`, {replace:true, state:{movie, genre}})}}
                                 src= {img_url + movie.backdrop_path} alt='movie' className = 'slider-inner-content'></img>                                      
                         </div>
                         <p>{movie.title}</p>

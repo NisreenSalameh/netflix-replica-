@@ -1,3 +1,5 @@
+
+
 *{
   padding: 0;
   margin: 0;
@@ -6,8 +8,8 @@
 .new-movie-wrapper{
   height: 100vh;
   width: 100%;
-  background-image:url("https://occ-0-3409-1490.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbVwi2Gn8tctulLWVIWa2IzpGhsKdEbrqUQsqs_eSpMARZu5rI018Ji1qJmMcf6YaBp9YOjlBtMzxXUVbskK4aVGEsDgTMua51Su.jpg?r=9fb")  ;
   background-size: cover;
+  object-fit: contain;
 }
 
 .shadow{
@@ -37,11 +39,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px;
-}
-
-.border{
-  padding: 0.5px 2px;
-  border: 1px solid rgb(151, 146, 146);
 }
 
 .grey-clr{
