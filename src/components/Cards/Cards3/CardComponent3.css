@@ -1,0 +1,43 @@
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    background-color: black;
+    border-top:4px solid #333;
+    border-bottom:4px solid #333;
+}
+.card-3 h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .card-3 h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.card-3 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-3 video{
+    position: relative;
+    top: -87px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 1;
+}

@@ -1,0 +1,24 @@
+.card-4{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+    background-color: black;
+    border-top:4px solid #333;
+    border-bottom: 4px solid #333;
+}
+.card-4 h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    padding-left: 0;
+  }
+  .card-4 h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+.desc-4{
+    padding-left: 100px;
+}
