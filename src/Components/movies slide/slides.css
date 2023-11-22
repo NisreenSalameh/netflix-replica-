@@ -43,7 +43,7 @@ p, h1{
 
 .slider-container{
   width: 100%;
-  max-width: 1600px;
+  max-width: 1700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

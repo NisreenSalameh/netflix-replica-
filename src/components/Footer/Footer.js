@@ -4,9 +4,9 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='final-section'>
-       <footer class="footer">
+       <footer className="footer">
         <p><a href="#">Questions? Contact us</a></p>
-        <div class="footer-cols">
+        <div className="footer-cols">
             <ul>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Investor Relations</a></li>

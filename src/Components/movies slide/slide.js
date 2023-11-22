@@ -3,6 +3,9 @@ import './slides.css'
 
 function Slide({arrOfMovies, genre}){  
 
+  const [currentDate, setCurrentDate] = useState(new Date())
+  console.log(currentDate)
+
   const left = "<"
   const right = ">"
   const sliderRef = useRef(null)

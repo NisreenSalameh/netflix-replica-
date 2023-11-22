@@ -24,8 +24,10 @@ function Scarface() {
                           <a className='scarface-metadata-wrapper-itemgenre' href='#'>Thrillers</a>
                       </div>
                       <div className='scarface-title-info-synopsis'>
-                      In a ruthless rise to Miami drug lord, a Cuban-born gangster descends into addiction, 
-                      obsession and brutality, with grisly consequences.
+                        <p>
+                            In a ruthless rise to Miami drug lord, a Cuban-born gangster descends into addiction, 
+                            obsession and brutality, with grisly consequences.
+                        </p>
                       </div>
                       <div className='scarface-starring'>
                           <span className='scarface-starring-span'>Starring: </span>
