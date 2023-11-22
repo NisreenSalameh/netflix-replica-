@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
+ 
   return (
     <div className='entry'>
       <Navbar />
@@ -19,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

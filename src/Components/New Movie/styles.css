@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.new-movie-wrapper{
+  height: 100vh;
+  width: 100%;
+  background-image:url("https://occ-0-3409-1490.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbVwi2Gn8tctulLWVIWa2IzpGhsKdEbrqUQsqs_eSpMARZu5rI018Ji1qJmMcf6YaBp9YOjlBtMzxXUVbskK4aVGEsDgTMua51Su.jpg?r=9fb")  ;
+  background-size: cover;
+}
+
+.shadow{
+  margin-top: 55px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 55px;
+  background: linear-gradient(90deg, black, rgba(0, 0, 0, 0.699) 30%, rgba(0, 0, 0, 0.363) 42.5%, rgba(0, 0, 0, 0) 45%, transparent 40%) ;
+  gap: 20px;
+}
+
+.new-move-text-container{
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.new-move-text-container div{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.border{
+  padding: 0.5px 2px;
+  border: 1px solid rgb(151, 146, 146);
+}
+
+.grey-clr{
+  font-weight: 400;
+  color: #a3a3a3;
+}
