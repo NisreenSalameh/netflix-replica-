@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+:root{
+  --text-color: #fff
+}
+
+.entry{
+  background-color: #181818;
+}
+
+
+
+
