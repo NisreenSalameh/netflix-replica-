@@ -1,5 +1,6 @@
 import { useLocation } from "react-router"
 import "./styles.css"
+import Navbar from "../../components/common/Navbar/Navbar"
 
 function MovieDetails () {
   const location = useLocation() 
@@ -8,6 +9,7 @@ function MovieDetails () {
   const year = movieObj.release_date.split("-")[0]
 
   return <> 
+    <Navbar/>
     <div className="new-movie-wrapper" style={{ backgroundImage: `url(${img_url + movieObj.backdrop_path})` }}>
       <div className="shadow">
         <div className="new-movie-text-container">

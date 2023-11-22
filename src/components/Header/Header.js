@@ -16,7 +16,6 @@ function Header() {
         <p>Watch anywhere. Cancel Anytime</p>
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
         
-        
     </div>
     <Input/>
    </header>

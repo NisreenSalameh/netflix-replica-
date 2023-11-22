@@ -1,24 +1,24 @@
-import './styles/apps.css';
+import './styles/Apps.css';
 import Home from './pages/Home';
-import NetFlixShow from './pages/NetFlixShow';
 import Movies from './pages/Movies/Movies';
-import Navbar from './components/common/Navbar/Navbar';
 import MovieDetails from './pages/MovieDetails/MovieDetails';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Scarface from './pages/Scarface/Scarface';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
     <div className='entry'>
-      <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route element={<Movies />} path="/" />
+          <Route path="/" element={<Home />} /> 
+          <Route element={<Movies />} path="/movies" />
           <Route element={<MovieDetails />} path="/movie/:id" />
-          <Route path="/home" element={<Home />} /> 
-          <Route path="/netflix-show" element={<NetFlixShow/>} />
+          <Route element={<Scarface/>} path='/scarface'></Route>
         </Routes>
       </BrowserRouter>
+        <Footer/>
       </div>
   );
 }

@@ -11,10 +11,7 @@ export default function MoviesList({genre, genreNumber}){
     const sliderRef = useRef(null);
     const navigate = useNavigate();
     let img_url= "https://image.tmdb.org/t/p/w500/"
-
-    console.log("t4vwvev",genre)
     
-
     useEffect(() => {
     const fetchData = async () => {
         if(genre ==null){
