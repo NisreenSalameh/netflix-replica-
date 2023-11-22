@@ -1,14 +1,14 @@
+:root{
+  --text-color: #fff;
+  --background-black-color: #181818;
+}
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   color: var(--text-color);
-}
-
-:root{
-  --text-color: #fff;
-  --background-black-color: #181818;
 }
 
 .entry{

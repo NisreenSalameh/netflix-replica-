@@ -1,6 +1,5 @@
-// InputComponent.js
 import React from 'react';
-import './Input.css'; // Import your CSS file
+import './Input.css';
 
 const Input = () => {
   return (

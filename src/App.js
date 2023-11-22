@@ -1,4 +1,4 @@
-import './styles/App.css';
+import './styles/apps.css';
 import Home from './pages/Home';
 import NetFlixShow from './pages/NetFlixShow';
 import Movies from './pages/Movies/Movies';
