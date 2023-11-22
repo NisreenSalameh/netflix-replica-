@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './slides.css'
 
 function Slide({arrOfMovies, genre}){  
@@ -32,7 +32,6 @@ function Slide({arrOfMovies, genre}){
 }
 
 const img_url = "https://image.tmdb.org/t/p/w500/"
-console.log(arrOfMovies)
 return <>
 
         <div className='slider-container-spans'>   
