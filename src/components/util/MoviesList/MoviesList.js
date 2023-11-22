@@ -1,6 +1,7 @@
 import './MoviesList.css'
 import { useState, useEffect, useRef } from 'react'; 
 import { fecthMoviesByPoularity, fecthMoviesGenres } from '../../../core/helpers/request_helper/requests';
+import {Link, useNavigate } from 'react-router-dom';
 
 export default function MoviesList({genre, genreNumber}){
     const [movies, setMovies] =useState([]);
@@ -8,6 +9,7 @@ export default function MoviesList({genre, genreNumber}){
     const left = "<"
     const right = ">"
     const sliderRef = useRef(null);
+    const navigate = useNavigate();
     let img_url= "https://image.tmdb.org/t/p/w500/"
     
 
@@ -53,6 +55,9 @@ export default function MoviesList({genre, genreNumber}){
             }
         }
     }
+//    if(movies){
+//     console.log(movies[0].id)
+//    } 
 
     return(
     <div className='slider-container-spans'>   
@@ -63,7 +68,9 @@ export default function MoviesList({genre, genreNumber}){
                 {movies && (movies.map(movie => 
                     <div key = {movie.id} className = 'slider-inner-content'>                      
                         <div className = 'slider-img-container'>
-                            <img src= {img_url + movie.backdrop_path} alt='movie'></img>
+                            <img  
+                                onClick={()=> {navigate(`/movie/${movie.id}`, {replace:true, state:{movie}})}}
+                                src= {img_url + movie.backdrop_path} alt='movie' className = 'slider-inner-content'></img>                                      
                         </div>
                         <p>{movie.title}</p>
                     </div>

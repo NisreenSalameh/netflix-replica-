@@ -124,6 +124,11 @@
     margin-bottom: 5px;
   }
 
+  .slider-img-container a, .slider-img-container a img {
+    height: 100%;
+    width: 100%;
+  }
+
   @media (max-width:750px) {
     .slider-img-container{
       height: 162.7px;
