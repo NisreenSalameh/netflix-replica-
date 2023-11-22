@@ -7,7 +7,8 @@ export default function MoviesList({genre, genreNumber}){
     let [translateValue, setTranslateValue] = useState(0)
     const left = "<"
     const right = ">"
-    const sliderRef = useRef(null)
+    const sliderRef = useRef(null);
+    let img_url= "https://image.tmdb.org/t/p/w500/"
     
 
     useEffect(() => {
@@ -53,26 +54,23 @@ export default function MoviesList({genre, genreNumber}){
         }
     }
 
-   let img_url= "https://image.tmdb.org/t/p/w500/"
     return(
-        <>
-        <div className='slider-container-spans'>   
-            <div className="slider-container">
-                <p>{genre}</p>
-                <span id='span-left' className='span-left' onClick={slide_left}> {left}</span>
-                <div className="slider" ref={sliderRef}>
-                  {movies && (movies.map(movie => 
-                      <div key = {movie.id} className = 'slider-inner-content'>                      
+    <div className='slider-container-spans'>   
+        <div className="slider-container">
+            <p>{genre}</p>
+            <span id='span-left' className='span-left' onClick={slide_left}> {left}</span>
+            <div className="slider" ref={sliderRef}>
+                {movies && (movies.map(movie => 
+                    <div key = {movie.id} className = 'slider-inner-content'>                      
                         <div className = 'slider-img-container'>
                             <img src= {img_url + movie.backdrop_path} alt='movie'></img>
                         </div>
                         <p>{movie.title}</p>
-                      </div>
-                  ))}
-                </div>
-                <span id='span-right' className='span-right' onClick={slide_right}> {right} </span>
+                    </div>
+                ))}
             </div>
-          </div>
-      </>
+            <span id='span-right' className='span-right' onClick={slide_right}> {right} </span>
+        </div>
+        </div>
     )
 }
