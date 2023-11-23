@@ -1,7 +1,7 @@
 import './Movies.css'
-import MoviesList from '../../components/util/MoviesList/MoviesList'
+import MoviesList from '../../Components/util/MoviesList/MoviesList'
 import moviesGenresIdMap from '../../core/helpers/request_helper/moviesGenresId';
-import Navbar from '../../components/common/Navbar/Navbar'
+import Navbar from '../../Components/common/Navbar/Navbar'
 export default function Movies(){
 
     const slideComponents = Object.entries(moviesGenresIdMap).map(([genre, genreNumber]) => (

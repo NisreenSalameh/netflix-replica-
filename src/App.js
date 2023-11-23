@@ -4,7 +4,7 @@ import Movies from './pages/Movies/Movies';
 import MovieDetails from './pages/MovieDetails/MovieDetails';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Scarface from './pages/Scarface/Scarface';
-import Footer from './components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {

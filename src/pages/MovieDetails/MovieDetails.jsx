@@ -1,6 +1,6 @@
 import { useLocation } from "react-router"
 import "./styles.css"
-import Navbar from "../../components/common/Navbar/Navbar"
+import Navbar from "../../Components/common/Navbar/Navbar"
 
 function MovieDetails () {
   const location = useLocation() 
